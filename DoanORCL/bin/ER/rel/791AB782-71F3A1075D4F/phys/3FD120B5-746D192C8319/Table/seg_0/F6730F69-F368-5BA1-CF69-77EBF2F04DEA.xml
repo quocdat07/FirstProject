@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PHIEUMUON" directorySegmentName="seg_0" id="F6730F69-F368-5BA1-CF69-77EBF2F04DEA">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<schemaObject>C14F22F5-43A7-47C1-A0AD-C36D7F2299CE</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6C6D0C7F-8E9D-15D4-B4C3-E08416CB79DB</segment>
+<tableSpace>0B538145-34F9-A015-D31C-AF0E4E52C17E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NGAYPHAITRA" id="1404D2F4-A042-E23C-D57F-E558895B4550">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAPHIEU" id="23E8E3DC-9B41-BB97-A438-FD14CE1ADAEF">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MASACH" id="B7FBD535-668C-E0AD-5FCB-606E6C1281B7">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NGAYMUON" id="D6B1F551-4186-464E-F1E6-346C6E8C2510">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MADOCGIA" id="D8BC4CC8-9B66-A283-A488-AFE38DB0A33C">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PHIEUMUON_DOCGIA" id="222161E1-0201-31C7-9DD4-A85045AB6F7C">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:57 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PHIEUMUON_SACH" id="7D43A6A6-B116-FA75-12C2-9B2D5342E2AD">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:57 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PHIEUMUON_PK" id="83AC133D-E5FF-5B6D-38D2-22C849F89DF8">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:56 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<schemaObject>C14F22F5-43A7-47C1-A0AD-C36D7F2299CE</schemaObject>
+<segment>BCF5684E-AF26-D456-08CD-B00EA2651F77</segment>
+<tableSpace>0B538145-34F9-A015-D31C-AF0E4E52C17E</tableSpace>
+<indexSegment>BCF5684E-AF26-D456-08CD-B00EA2651F77</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

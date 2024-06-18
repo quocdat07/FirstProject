@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8681E790-593D-7B80-4DF6-01701688A9AF" schemaObject="C14F22F5-43A7-47C1-A0AD-C36D7F2299CE" name="DOCGIA">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>DOCGIA</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MADOCGIA" id="D6CED7CA-844F-894A-ACB8-BE6F8EDAE3D5">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>DOCGIA</sourceObjSchema>
+<sourceObjName>MADOCGIA</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32B3EBD2-4EEE-9818-DB0C-F81F38C490BA" referredColumn="53F08DF1-BADC-CA14-1E40-ABB82D6F2327"/>
+</associations>
+</Column>
+<Column name="TENDANGNHAP" id="49782BDE-69B3-B87A-75A7-920A5185DD1B">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>DOCGIA</sourceObjSchema>
+<sourceObjName>TENDANGNHAP</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOTEN" id="731963E7-8883-DFE8-C912-F8A1F2B9AD4D">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>DOCGIA</sourceObjSchema>
+<sourceObjName>HOTEN</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIOITINH" id="B0901A6E-8F4C-AFB1-B814-B6AF29E73CB3">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>DOCGIA</sourceObjSchema>
+<sourceObjName>GIOITINH</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAMSINH" id="2DD18FA5-5337-5F44-4A2B-F33BFF09E8E4">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>DOCGIA</sourceObjSchema>
+<sourceObjName>NAMSINH</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIACHI" id="BB80076A-111C-78A3-59B7-EE231C77E718">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>DOCGIA</sourceObjSchema>
+<sourceObjName>DIACHI</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANHTHE" id="E4F83745-3BD2-269B-BF07-F6E55564D483">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>DOCGIA</sourceObjSchema>
+<sourceObjName>ANHTHE</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB6ED37B-58D9-D2A4-1FBA-E1897D53471E" schemaObject="C14F22F5-43A7-47C1-A0AD-C36D7F2299CE" name="DOCGIA_PK">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C009998</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:55 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6CED7CA-844F-894A-ACB8-BE6F8EDAE3D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2489510-D992-9D22-EE1C-3EC1454B4545" schemaObject="C14F22F5-43A7-47C1-A0AD-C36D7F2299CE" name="DOCGIA_TENDANGNHAP_UN">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C009999</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:55 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49782BDE-69B3-B87A-75A7-920A5185DD1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92AFAC8B-783E-4AB5-9973-EE8C121ED263" name="FK_DOCGIA_ACCOUNT">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:57 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6CED7CA-844F-894A-ACB8-BE6F8EDAE3D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

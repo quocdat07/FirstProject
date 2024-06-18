@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18A10D5B-FE17-DAC9-8614-7EF41C205E33" schemaObject="C14F22F5-43A7-47C1-A0AD-C36D7F2299CE" name="SACH">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SACH</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MASACH" id="91508F82-C96A-3ACD-BD2D-155F52DB8543">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SACH</sourceObjSchema>
+<sourceObjName>MASACH</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TENSACH" id="B2706963-8528-FD1C-3B7E-19D88338F806">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SACH</sourceObjSchema>
+<sourceObjName>TENSACH</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TACGIA" id="A281A975-4BFE-4736-D6C2-BB0EBD97C588">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SACH</sourceObjSchema>
+<sourceObjName>TACGIA</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="THELOAI" id="80A2ABB1-7B7D-F180-F1C3-C8E0495B4317">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SACH</sourceObjSchema>
+<sourceObjName>THELOAI</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NHAXUATBAN" id="81235A26-CAC1-9F33-CEEE-45253F9F3F3A">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SACH</sourceObjSchema>
+<sourceObjName>NHAXUATBAN</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIASACH" id="74B4D6EA-65B0-AE5D-E3D6-118C381D3D1D">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SACH</sourceObjSchema>
+<sourceObjName>GIASACH</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOLUONG" id="FBE8A067-8DA8-4CE9-71B1-2BF0C23D1EE8">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SACH</sourceObjSchema>
+<sourceObjName>SOLUONG</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TINHTRANG" id="F67BA575-F242-6864-6E2B-15D599B83BB2">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SACH</sourceObjSchema>
+<sourceObjName>TINHTRANG</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GHICHU" id="3302646A-5BFB-44D2-D009-52408EF0A235">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SACH</sourceObjSchema>
+<sourceObjName>GHICHU</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANHSACH" id="F3DD155C-7DEC-4B26-116F-B30A284AE8C1">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SACH</sourceObjSchema>
+<sourceObjName>ANHSACH</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21F1FF8F-264B-595A-CD1D-9CE133126C5D" schemaObject="C14F22F5-43A7-47C1-A0AD-C36D7F2299CE" name="SACH_PK">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0010001</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:56 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91508F82-C96A-3ACD-BD2D-155F52DB8543"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

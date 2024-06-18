@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30D7B245-652E-5328-B40D-5511CA53DB78" schemaObject="C14F22F5-43A7-47C1-A0AD-C36D7F2299CE" name="PHIEUTRA">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PHIEUTRA</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MAPHIEU" id="88413041-63CE-711F-5B28-5A63EC11D87C">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>PHIEUTRA</sourceObjSchema>
+<sourceObjName>MAPHIEU</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MADOCGIA" id="7403CEB0-6B22-495F-56B5-6A2EB071AE06">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>PHIEUTRA</sourceObjSchema>
+<sourceObjName>MADOCGIA</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C75F9DA0-4D6F-4F1F-CEF7-2E508C9A175D" referredColumn="D6CED7CA-844F-894A-ACB8-BE6F8EDAE3D5"/>
+</associations>
+</Column>
+<Column name="MASACH" id="32B0F048-1F25-A6C9-1932-976B797A0D04">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>PHIEUTRA</sourceObjSchema>
+<sourceObjName>MASACH</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D4BCF26-DC05-334D-6BEE-6209BAB7B08B" referredColumn="91508F82-C96A-3ACD-BD2D-155F52DB8543"/>
+</associations>
+</Column>
+<Column name="NGAYTRA" id="D51706C9-AA10-1788-970B-E7FBF58A3B59">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>PHIEUTRA</sourceObjSchema>
+<sourceObjName>NGAYTRA</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E405126B-50AC-9856-3435-0177AD29DAEF" schemaObject="C14F22F5-43A7-47C1-A0AD-C36D7F2299CE" name="PHIEUTRA_PK">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0010005</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:56 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88413041-63CE-711F-5B28-5A63EC11D87C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9ABC505C-F2FB-FC88-EE4A-6987EC0BBE84" name="FK_PHIEUTRA_DOCGIA">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:57 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7403CEB0-6B22-495F-56B5-6A2EB071AE06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40CF3EFF-1BAA-34BD-5154-A5EB41531416" name="FK_PHIEUTRA_SACH">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:57 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32B0F048-1F25-A6C9-1932-976B797A0D04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

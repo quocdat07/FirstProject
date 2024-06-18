@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C75F9DA0-4D6F-4F1F-CEF7-2E508C9A175D" containerWithKeyObject="30D7B245-652E-5328-B40D-5511CA53DB78" localFKIndex="9ABC505C-F2FB-FC88-EE4A-6987EC0BBE84" name="FK_PHIEUTRA_DOCGIA">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>FK_PHIEUTRA_DOCGIA</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:57 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<referredTableLongName>SYS.DOCGIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8681E790-593D-7B80-4DF6-01701688A9AF</referredTableID>
+<keyObject>EB6ED37B-58D9-D2A4-1FBA-E1897D53471E</keyObject>
+<referredKeyID>EB6ED37B-58D9-D2A4-1FBA-E1897D53471E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>MADOCGIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

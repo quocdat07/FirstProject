@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SACH" directorySegmentName="seg_0" id="18A10D5B-FE17-DAC9-8614-7EF41C205E33">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<schemaObject>C14F22F5-43A7-47C1-A0AD-C36D7F2299CE</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6C6D0C7F-8E9D-15D4-B4C3-E08416CB79DB</segment>
+<tableSpace>0B538145-34F9-A015-D31C-AF0E4E52C17E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="GHICHU" id="3302646A-5BFB-44D2-D009-52408EF0A235">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GIASACH" id="74B4D6EA-65B0-AE5D-E3D6-118C381D3D1D">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="THELOAI" id="80A2ABB1-7B7D-F180-F1C3-C8E0495B4317">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NHAXUATBAN" id="81235A26-CAC1-9F33-CEEE-45253F9F3F3A">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MASACH" id="91508F82-C96A-3ACD-BD2D-155F52DB8543">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TACGIA" id="A281A975-4BFE-4736-D6C2-BB0EBD97C588">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TENSACH" id="B2706963-8528-FD1C-3B7E-19D88338F806">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ANHSACH" id="F3DD155C-7DEC-4B26-116F-B30A284AE8C1">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TINHTRANG" id="F67BA575-F242-6864-6E2B-15D599B83BB2">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOLUONG" id="FBE8A067-8DA8-4CE9-71B1-2BF0C23D1EE8">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000091969C00010$$" id="502B3A89-9978-6E18-D777-4AA3A09FA5ED">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:57 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>ANHSACH</column>
+<logging>YES</logging>
+<tableSpace>0B538145-34F9-A015-D31C-AF0E4E52C17E</tableSpace>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SACH_PK" id="21F1FF8F-264B-595A-CD1D-9CE133126C5D">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:56 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<schemaObject>C14F22F5-43A7-47C1-A0AD-C36D7F2299CE</schemaObject>
+<segment>BCF5684E-AF26-D456-08CD-B00EA2651F77</segment>
+<tableSpace>0B538145-34F9-A015-D31C-AF0E4E52C17E</tableSpace>
+<indexSegment>BCF5684E-AF26-D456-08CD-B00EA2651F77</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6730F69-F368-5BA1-CF69-77EBF2F04DEA" schemaObject="C14F22F5-43A7-47C1-A0AD-C36D7F2299CE" name="PHIEUMUON">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PHIEUMUON</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MAPHIEU" id="23E8E3DC-9B41-BB97-A438-FD14CE1ADAEF">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>PHIEUMUON</sourceObjSchema>
+<sourceObjName>MAPHIEU</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MADOCGIA" id="D8BC4CC8-9B66-A283-A488-AFE38DB0A33C">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>PHIEUMUON</sourceObjSchema>
+<sourceObjName>MADOCGIA</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F1F862E-DF07-5695-ACDB-B1D232956BC4" referredColumn="D6CED7CA-844F-894A-ACB8-BE6F8EDAE3D5"/>
+</associations>
+</Column>
+<Column name="MASACH" id="B7FBD535-668C-E0AD-5FCB-606E6C1281B7">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>PHIEUMUON</sourceObjSchema>
+<sourceObjName>MASACH</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2EFCB9A-7BB6-E799-9B3B-298CDAB3064E" referredColumn="91508F82-C96A-3ACD-BD2D-155F52DB8543"/>
+</associations>
+</Column>
+<Column name="NGAYMUON" id="D6B1F551-4186-464E-F1E6-346C6E8C2510">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>PHIEUMUON</sourceObjSchema>
+<sourceObjName>NGAYMUON</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NGAYPHAITRA" id="1404D2F4-A042-E23C-D57F-E558895B4550">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>PHIEUMUON</sourceObjSchema>
+<sourceObjName>NGAYPHAITRA</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83AC133D-E5FF-5B6D-38D2-22C849F89DF8" schemaObject="C14F22F5-43A7-47C1-A0AD-C36D7F2299CE" name="PHIEUMUON_PK">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0010002</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:56 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23E8E3DC-9B41-BB97-A438-FD14CE1ADAEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="222161E1-0201-31C7-9DD4-A85045AB6F7C" name="FK_PHIEUMUON_DOCGIA">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:57 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8BC4CC8-9B66-A283-A488-AFE38DB0A33C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D43A6A6-B116-FA75-12C2-9B2D5342E2AD" name="FK_PHIEUMUON_SACH">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:57 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7FBD535-668C-E0AD-5FCB-606E6C1281B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

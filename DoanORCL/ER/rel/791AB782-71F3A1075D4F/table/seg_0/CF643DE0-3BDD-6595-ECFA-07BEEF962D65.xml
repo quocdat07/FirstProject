@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF643DE0-3BDD-6595-ECFA-07BEEF962D65" schemaObject="C14F22F5-43A7-47C1-A0AD-C36D7F2299CE" name="ACCOUNT">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>ACCOUNT</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MADOCGIA" id="53F08DF1-BADC-CA14-1E40-ABB82D6F2327">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>ACCOUNT</sourceObjSchema>
+<sourceObjName>MADOCGIA</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TENDANGNHAP" id="8C00526F-7916-A8CD-7BC8-F9CED05FCA82">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>ACCOUNT</sourceObjSchema>
+<sourceObjName>TENDANGNHAP</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FULLNAME" id="B9026496-EFC5-4EF4-2EB4-84AF6AAD9991">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>ACCOUNT</sourceObjSchema>
+<sourceObjName>FULLNAME</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="11A053CF-AFE3-9A3C-B1EE-A4C7706A9701">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>ACCOUNT</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3473BCCF-CC2B-D1BE-D16B-C52BAD3A2D9C" schemaObject="C14F22F5-43A7-47C1-A0AD-C36D7F2299CE" name="ACCOUNT_PK">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C009996</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:55 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53F08DF1-BADC-CA14-1E40-ABB82D6F2327"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F17AF985-E646-DEF7-75A7-B2942947F342" schemaObject="C14F22F5-43A7-47C1-A0AD-C36D7F2299CE" name="ACCOUNT_TENDANGNHAP_UN">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C009997</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:55 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C00526F-7916-A8CD-7BC8-F9CED05FCA82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

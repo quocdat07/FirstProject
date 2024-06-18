@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ACCOUNT" directorySegmentName="seg_0" id="CF643DE0-3BDD-6595-ECFA-07BEEF962D65">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<schemaObject>C14F22F5-43A7-47C1-A0AD-C36D7F2299CE</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6C6D0C7F-8E9D-15D4-B4C3-E08416CB79DB</segment>
+<tableSpace>0B538145-34F9-A015-D31C-AF0E4E52C17E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMAIL" id="11A053CF-AFE3-9A3C-B1EE-A4C7706A9701">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MADOCGIA" id="53F08DF1-BADC-CA14-1E40-ABB82D6F2327">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TENDANGNHAP" id="8C00526F-7916-A8CD-7BC8-F9CED05FCA82">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FULLNAME" id="B9026496-EFC5-4EF4-2EB4-84AF6AAD9991">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ACCOUNT_PK" id="3473BCCF-CC2B-D1BE-D16B-C52BAD3A2D9C">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:56 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<schemaObject>C14F22F5-43A7-47C1-A0AD-C36D7F2299CE</schemaObject>
+<segment>BCF5684E-AF26-D456-08CD-B00EA2651F77</segment>
+<tableSpace>0B538145-34F9-A015-D31C-AF0E4E52C17E</tableSpace>
+<indexSegment>BCF5684E-AF26-D456-08CD-B00EA2651F77</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="ACCOUNT_TENDANGNHAP_UN" id="F17AF985-E646-DEF7-75A7-B2942947F342">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:56 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<schemaObject>C14F22F5-43A7-47C1-A0AD-C36D7F2299CE</schemaObject>
+<segment>BCF5684E-AF26-D456-08CD-B00EA2651F77</segment>
+<tableSpace>0B538145-34F9-A015-D31C-AF0E4E52C17E</tableSpace>
+<indexSegment>BCF5684E-AF26-D456-08CD-B00EA2651F77</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

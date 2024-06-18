@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DOCGIA" directorySegmentName="seg_0" id="8681E790-593D-7B80-4DF6-01701688A9AF">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<schemaObject>C14F22F5-43A7-47C1-A0AD-C36D7F2299CE</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6C6D0C7F-8E9D-15D4-B4C3-E08416CB79DB</segment>
+<tableSpace>0B538145-34F9-A015-D31C-AF0E4E52C17E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAMSINH" id="2DD18FA5-5337-5F44-4A2B-F33BFF09E8E4">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TENDANGNHAP" id="49782BDE-69B3-B87A-75A7-920A5185DD1B">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HOTEN" id="731963E7-8883-DFE8-C912-F8A1F2B9AD4D">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GIOITINH" id="B0901A6E-8F4C-AFB1-B814-B6AF29E73CB3">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIACHI" id="BB80076A-111C-78A3-59B7-EE231C77E718">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MADOCGIA" id="D6CED7CA-844F-894A-ACB8-BE6F8EDAE3D5">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ANHTHE" id="E4F83745-3BD2-269B-BF07-F6E55564D483">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DOCGIA_ACCOUNT" id="92AFAC8B-783E-4AB5-9973-EE8C121ED263">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:57 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000091964C00007$$" id="F87EE115-9E46-92AB-E23B-BF73D32A3561">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:57 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>ANHTHE</column>
+<logging>YES</logging>
+<tableSpace>0B538145-34F9-A015-D31C-AF0E4E52C17E</tableSpace>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DOCGIA_PK" id="EB6ED37B-58D9-D2A4-1FBA-E1897D53471E">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:56 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<schemaObject>C14F22F5-43A7-47C1-A0AD-C36D7F2299CE</schemaObject>
+<segment>BCF5684E-AF26-D456-08CD-B00EA2651F77</segment>
+<tableSpace>0B538145-34F9-A015-D31C-AF0E4E52C17E</tableSpace>
+<indexSegment>BCF5684E-AF26-D456-08CD-B00EA2651F77</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="DOCGIA_TENDANGNHAP_UN" id="D2489510-D992-9D22-EE1C-3EC1454B4545">
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:56 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<schemaObject>C14F22F5-43A7-47C1-A0AD-C36D7F2299CE</schemaObject>
+<segment>BCF5684E-AF26-D456-08CD-B00EA2651F77</segment>
+<tableSpace>0B538145-34F9-A015-D31C-AF0E4E52C17E</tableSpace>
+<indexSegment>BCF5684E-AF26-D456-08CD-B00EA2651F77</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

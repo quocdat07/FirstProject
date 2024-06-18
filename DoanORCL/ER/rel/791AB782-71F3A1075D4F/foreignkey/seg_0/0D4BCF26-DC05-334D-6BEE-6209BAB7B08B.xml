@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0D4BCF26-DC05-334D-6BEE-6209BAB7B08B" containerWithKeyObject="30D7B245-652E-5328-B40D-5511CA53DB78" localFKIndex="40CF3EFF-1BAA-34BD-5154-A5EB41531416" name="FK_PHIEUTRA_SACH">
+<sourceConnName>QuanLy</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>FK_PHIEUTRA_SACH</sourceObjName>
+<createdBy>Asus</createdBy>
+<createdTime>2024-05-22 09:42:57 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<referredTableLongName>SYS.SACH</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>18A10D5B-FE17-DAC9-8614-7EF41C205E33</referredTableID>
+<keyObject>21F1FF8F-264B-595A-CD1D-9CE133126C5D</keyObject>
+<referredKeyID>21F1FF8F-264B-595A-CD1D-9CE133126C5D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>MASACH</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
